@@ -1,0 +1,9 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="SociatyWarContent ">
+		<Param name="Chapter " index="1" type="int"/>
+		<Param name="Active " index="2" type="int"/>
+		<Param name="PassRaward " index="3" type="int"/>
+		<Param name="FastItem " index="4" type="intlist" split1="~"/>
+	</Struct>
+</Protocol>

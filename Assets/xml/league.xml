@@ -1,0 +1,13 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="LeagueContent">
+		<Param name="Level" index="1" type="int" split2=""/>
+    <Param name="MinCup" index="2" type="int" split2=""/>
+    <Param name="MaxCup" index="3" type="int" split2=""/>
+    <Param name="LeagueReward " index="4" type="intlistlist" split1="$" split2="~"/>
+    <Param name="VictoryArgs" index="5" type="int" split2=""/>
+    <Param name="FailArgs" index="6" type="int" split2=""/>
+	<Param name="LogoIcon" index="7" type="string" split2=""/>
+	<Param name="LevelIcon" index="8" type="string" split2=""/>
+  </Struct>
+</Protocol>

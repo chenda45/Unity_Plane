@@ -1,0 +1,16 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="SoulCaseContent" >
+		<Param name="Name " index="1" type="int"/>  
+		<Param name="Level " index="2" type="int"/>  
+		<Param name="Type " index="4" type="int"/>  
+		<Param name="BoxExp " index="5" type="intlist" split1 = "$"/> 
+		<Param name="NeedExp " index="6" type="int"/> 
+		<Param name="TechId " index="7" type="int"/>    
+		<Param name="OtherId " index="9" type="intlist" split1 = "$"/>    
+		<Param name="Addnum" index="10" type="intlist" split1 = "$"/>    
+		<Param name="Rate" index="11" type="intlistlist" split1 = "$" split2 = "~"/>    
+		<Param name="Max" index="12" type="intlistlist" split1 = "$" split2 = "~"/>    
+		<Param name="Icon" index="13" type="string"/>    
+	</Struct>
+</Protocol>

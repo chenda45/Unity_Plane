@@ -1,0 +1,6 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="ShieldContent ">
+		<Param name="Content " index="1" type="stringlist" split1=";"/>
+	</Struct>
+</Protocol>

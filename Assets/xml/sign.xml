@@ -1,0 +1,13 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="SignContent ">
+		<Param name="Acheveid " index="3" type="int"/>
+		<Param name="Beizhu " index="4" type="int"/>
+		<Param name="Achevenum " index="5" type="int"/>
+		<Param name="Premiums " index="6" type="int"/>
+		<Param name="PremiumsNum " index="7" type="int"/>
+		<Param name="VipLevel " index="8" type="int"/>
+		<Param name="EventId " index="9" type="intlist" split1="~"/>
+		<Param name="DisplayInt " index="10" type="int"/>
+	</Struct>
+</Protocol>

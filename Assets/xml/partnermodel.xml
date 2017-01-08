@@ -1,0 +1,22 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="PartnerModelContent">
+		<Param name="NormalAtkID" index="1" type="int" split2=""/>
+		<Param name="RollSkill" index="2" type="int"/>
+		<Param name="SwitchCD" index="3" type="int"/>
+		<Param name="HpRegenRate" index="4" type="int"/>
+		<Param name="Desc" index="5" type="int"/>
+		<Param name="ModelRes" index="6" type="string"/>
+		<Param name="WeaponID" index="7" type="int"/>
+		<Param name="Icon" index="8" type="string" split1="" split2=""/>
+		<Param name="DeadActionID" index="9" type="int"/>
+		<Param name="SkillSoundID" index="10" type="int"/>
+		<Param name="BehitSoundID" index="11" type="int"/>
+		<Param name="GroupName" index="12" type="int"/>
+		<Param name="PlayerSex" index="13" type="byte"/>
+		<Param name="PartnerDesc" index="14" type="int"/>
+		<Param name="PartnerPos " index="15" type="Vector3" split1="~"/>
+		<Param name="PartnerRotation " index="16" type="Vector3" split1="~"/>
+		<Param name="PartnerSound " index="17" type="int" split1="~"/>
+	</Struct>
+</Protocol>

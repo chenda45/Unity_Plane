@@ -1,0 +1,8 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="SociatyBattleContent ">
+		<Param name="PKNumber " index="1" type="int"/>
+		<Param name="IsOpen " index="2" type="byte"/>
+    <Param name="Icon " index="3" type="string"/>
+	</Struct>
+</Protocol>

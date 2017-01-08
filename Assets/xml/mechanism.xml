@@ -1,0 +1,18 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="MechanismContent">
+		<Param name="MechanismType" index="1" type="byte" split2=""/>
+		<Param name="Path" index="2" type="string" split2=""/>
+		<Param name="Args" index="3" type="stringlist" split1="~" split2=""/>
+		<Param name="Script" index="4" type="intlist" split1="~" split2=""/>
+		<Param name="TriggerCount" index="5" type="int" split1="" split2=""/>
+		<Param name="SpaceTime" index="6" type="float" split1="" split2=""/>
+		<Param name="NavMeshLayerName" index="7" type="string" split1=""/>
+		<Param name="MoveCamera" index="8" type="bool" split1="" split2=""/>
+		<Param name="CameraOffSet" index="9" type="vector3" split1="~"/>
+		<Param name="AnimationSpeed" index="10" type="float"/>
+		<Param name="NextMechanismID" index="11" type="int"/>
+		<Param name="ParkTime" index="12" type="float"/>
+		<Param name="CompletedHide" index="13" type="bool"/>
+	</Struct>
+</Protocol>

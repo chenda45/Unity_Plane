@@ -1,0 +1,11 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="PlayerConfigContent">
+		<Param name="Weapon" index="7" type="int" split2=""/>
+		<Param name="Clothes" index="8" type="int" split2=""/>
+		<Param name="AssaultID" index="9" type="int" split1="" split2=""/>
+		<Param name="ChargeList" index="10" type="intlist" split1="$" split2=""/>
+		<Param name="GrabID" index="11" type="int" split1="" split2=""/>
+		<Param name="RollID" index="13" type="int" split1="" split2=""/>
+	</Struct>
+</Protocol>

@@ -1,0 +1,9 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="HuntingContent">
+		<Param name="level " index="1" type="int" split1="" split2="" desc=""/>
+		<Param name="costinfo " index="2" type="intlist" split1="~" split2="" desc=""/>
+		<Param name="priceinfo " index="6" type="intlist" split1="~" split2="" desc=""/>
+		
+	</Struct>
+</Protocol>

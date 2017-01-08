@@ -1,0 +1,26 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="PartenrContent" relatedclass = "PartnerModelContent" >
+		<Param name="Name" index="1" type="int" split2=""/>
+		<Param name="NameDesc" index="2" type="int" split2=""/>
+		<Param name="JobIndex" index="4" type="int" split1="" split2=""/>
+		<Param name="Star" index="5" type="int" split1="" split2=""/>
+		<Param name="StarneedItems" index="6" type="intlistlist" split1="$" split2="~"/>
+		<Param name="Quality" index="7" type="int" split1="" split2=""/>
+		<Param name="QualityneedItems" index="8" type="intlistlist" split1="$" split2="~"/>
+		<Param name="NextID" index="9" type="int" split1="" split2=""/>
+		<Param name="Kind" index="10" type="int"/>
+		<Param name="Attack" index="11" type="intlist" split1="~"/>
+		<Param name="Defense" index="12" type="intlist" split1="~"/>
+		<Param name="Hp" index="13" type="intlist" split1="~"/>
+		<Param name="Skilllist" index="14" type="intlist" split1="$"/>
+		<Param name="AddPropertyID" index="15" type="int"/>
+		<Param name="IllustrationsID" index="16" type="int"/>
+		<Param name="GroupIndex" index="17" type="int"/>
+		<Param name="TestSkillList" index="18" type="intlist" split1="$"/>
+		<Param name="CallUse" index="19" type="intlistlist" split1="$" split2="~"/>
+		<Param name="ModelLoaderKey" index="20" type="int"/> 
+		<Param name="LongJingID" index="21" type="int"/>
+		<Param name="SoulId" index="22" type="int"/>
+  </Struct>
+</Protocol>

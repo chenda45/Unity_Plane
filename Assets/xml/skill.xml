@@ -1,0 +1,36 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="SkillContent ">
+		<Param name="SkillName " index="1" type="int"/>
+		<Param name="SkillType " index="3" type="byte"/>
+		<Param name="NextSkill " index="4" type="intlist" split1="~"/>
+		<Param name="FirstSkillID " index="5" type="int"/>
+		<Param name="MultiSkillType " index="6" type="byte"/>
+		<Param name="MouseAction " index="7" type="byte"/>
+		<Param name="CanBlink " index="8" type="bool"/>
+		<Param name="SkillRange " index="9" type="byte"/>
+		<Param name="RangeArgs " index="10" type="floatlist" split1="~"/>
+		<Param name="JudgeArgs " index="11" type="floatlist" split1="~"/>
+		<Param name="SkillAtkType " index="12" type="byte"/>
+		<Param name="AffectType " index="13" type="byte"/>
+		<Param name="LockList " index="14" type="intlist" split1="$"/>
+		<Param name="AffectEffect " index="15" type="byte"/>
+		<Param name="Priority " index="16" type="byte"/>
+		<Param name="CD " index="17" type="float"/>
+		<Param name="IsInitCD " index="18" type="bool"/>
+		<Param name="Interval " index="19" type="float"/>
+		<Param name="LastTime " index="20" type="float"/>
+		<Param name="CostType " index="21" type="byte"/>
+		<Param name="CostValue " index="22" type="int"/>
+		<Param name="AttrID " index="23" type="int"/>
+		<Param name="IgnoreCollider " index="24" type="bool"/>
+		<Param name="TargetScripts " index="25" type="intlist" split1="$"/>
+		<Param name="SelfScripts " index="26" type="intlist" split1="$"/>
+		<Param name="Icon " index="27" type="string"/>
+		<Param name="AttackID " index="28" type="int"/>
+		<Param name="DefenceID " index="29" type="int"/>
+		<Param name="DullKnifeProbability " index="30" type="int"/>
+		<Param name="ExtraArgs " index="31" type="stringlist" split1="~"/>
+		<Param name="Describe " index="32" type="string"/>
+	</Struct>
+</Protocol>

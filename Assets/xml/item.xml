@@ -1,0 +1,22 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="ItemContent">
+		<Param name="Name" index="1" type="int" split2=""/>
+		<Param name="Level" index="4" type="byte" split2=""/>
+		<Param name="Sort" index="5" type="byte" split1="" split2=""/>
+		<Param name="Quality" index="6" type="byte" split1="" split2=""/>
+		<Param name="MaxPileNum" index="7" type="int" split1="" split2=""/>
+		<Param name="IsCanUse" index="8" type="bool" split1="" split2=""/>
+		<Param name="UseConsume" index="9" type="intlist" split1="~"/>
+		<Param name="ScriptID" index="10" type="int" split1="" split2=""/>
+    <Param name="ScriptArg " index="11" type="intlistlist" split1="$" split2="~"/>
+		<Param name="ColletID" index="12" type="int"/>
+		<Param name="m_icon" index="16" type="string"/>
+		<Param name="m_path" index="17" type="stringlist" split1="$"/>
+		<Param name="DescribeID" index="18" type="int"/>
+    <Param name="DropLevel1" index="19" type="intlist" split1="~"/>
+		<Param name="DropLevel2" index="20" type="int"/>
+		<Param name="DropLevel3" index="21" type="int"/>
+		<Param name="ShowInBag" index="24" type="bool"/>
+	</Struct>
+</Protocol>

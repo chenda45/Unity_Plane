@@ -1,0 +1,26 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="BuffContent">
+		<Param name="LastTime" index="3" type="float" split1="" split2=""/>
+		<Param name="Period" index="4" type="float"/>
+		<Param name="SpliceNum" index="5" type="int"/>
+		<Param name="AttrID" index="6" type="int"/>
+		<Param name="SkillID" index="7" type="int"/>
+		<Param name="ChangeSpeed" index="8" type="float"/>
+		<Param name="DamageAbsorb" index="9" type="float"/>
+		<Param name="DamageMakeHP" index="10" type="float"/>
+		<Param name="DamageReflex" index="11" type="float"/>
+		<Param name="LifeStealblood" index="12" type="float"/>
+		<Param name="IsStun" index="13" type="bool"/>
+		<Param name="IsInvincibility" index="14" type="bool"/>
+		<Param name="IsOverlord" index="15" type="bool"/>
+		<Param name="IsHide" index="16" type="bool"/>
+		<Param name="IsFrost" index="17" type="bool"/>
+		<Param name="SizeChange" index="18" type="int"/>
+		<Param name="ChangeAtkSpeed" index="19" type="float"/>
+		<Param name="MagicShield" index="20" type="floatlist" split1="$"/>
+		<Param name="LastEffect" index="21" type="intlist" split1="$"/>
+		<Param name="IntervalEffect" index="22" type="intlist" split1="$"/>
+		<Param name="BuffType" index="23" type="byte"/>
+	</Struct>
+</Protocol>

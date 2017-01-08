@@ -1,0 +1,15 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="LeagueShopContent">
+		<Param name="ShopType" index="1" type="int" split2=""/>
+    <Param name="ItemID" index="2" type="int" split2=""/>
+    <Param name="ItemName" index="3" type="int" split2=""/>
+    <Param name="ItemQuality" index="4" type="int" split2=""/>
+    <Param name="ItemCount" index="5" type="int" split2=""/>
+    <Param name="ItemLevel" index="6" type="int" split2=""/>
+    <Param name="BuyPrice" index="7" type="intlist" split1="~" split2=""/>
+    <Param name="UpdateAgrs" index="8" type="int" split2=""/>
+    <Param name="LevelLimit" index="9" type="int" split2=""/>
+    <Param name="OpenArgs" index="10" type="intlist" split1="~" split2=""/>
+  </Struct>
+</Protocol>

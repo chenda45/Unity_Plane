@@ -1,0 +1,12 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="UISceneContent">
+		<Param name="ScenePath " index="1" type="string"/>
+		<Param name="FogColor " index="2" type="color" split1="$"/>
+		<Param name="FogMode " index="3" type="byte"/>
+		<Param name="FogDensity " index="4" type="float"/>
+		<Param name="FogStart " index="5" type="float"/>
+		<Param name="FogEnd " index="6" type="float"/>
+		<Param name="LightmapPath " index="7" type="string"/>
+	</Struct>
+</Protocol>

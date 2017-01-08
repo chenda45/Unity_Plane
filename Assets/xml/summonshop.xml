@@ -1,0 +1,14 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="summonshopContent ">
+		<Param name="TitleDetail " index="1" type="string"/>
+		<Param name="Type " index="2" type="int"/>
+		<Param name="SummonNum " index="3" type="int"/>
+		<Param name="Title " index="4" type="int"/>
+		<Param name="Detail " index="5" type="int"/>
+		<Param name="ConsumeId " index="6" type="int"/>
+		<Param name="Price " index="7" type="int"/>
+		<Param name="SpriteName " index="8" type="string"/>
+    <Param name="Open " index="9" type="byte"/>
+	</Struct>
+</Protocol>

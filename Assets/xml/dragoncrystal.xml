@@ -1,0 +1,24 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="DragoncrystalContent">
+    <Param name="NameID " index="1" type="int"/>
+    <Param name="NextID " index="3" type="int"/>
+    <Param name="UseType " index="4" type="intlist" split1="~"/>
+    <Param name="TriggerType " index="5" type="int"/>
+    <Param name="TriggerEffect " index="6" type="intlist" split1="~" desc="触发效果"/>
+    <Param name="CrystalAndEnchantEffect " index="7" type="intlist" split1="~" desc="龙晶特效和施法特效"/>
+    <Param name="SkillLevel " index="8" type="intlist" split1="~"/>
+    <Param name="MaxLevel " index="9" type="int"/>
+    <Param name="Icon " index="10" type="string"/>
+    <Param name="SkillEffectUP " index="11" type="intlist" split1="~" desc="技能效果提升"/>
+    <Param name="TriggerUp " index="12" type="intlist" split1="$" desc="触发概率提升"/>
+    <Param name="BuilInCD " index="13" type="intlist" split1="$" desc="内置CD"/>
+    <Param name="PassiveAttrID " index="14" type="int" desc="被动属性ID"/>
+    <Param name="PassivePercent " index="15" type="intlist" split1="~" desc="被动加成提升百分比"/>
+    <Param name="ActivateAttrID " index="16" type="intlistlist" split1="$"  split2="~" desc="激活属性"/>
+    <Param name="CurrentDesc " index="17" type="int" desc="当前描述"/>
+    <Param name="CurrentDescArg " index="18"  type="stringlist" split1="~" desc="当前描述参数"/>
+    <Param name="LongJingDesc " index="19" type="int"/>
+    <Param name="UseItem " index="20" type="intlistlist" split1="$" split2="~"/>
+  </Struct>
+</Protocol>

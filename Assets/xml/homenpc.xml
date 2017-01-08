@@ -1,0 +1,17 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="HomeNPCContent">
+		<Param name="Name" index="1" type="int"/>
+		<Param name="Size" index="3" type="float"/>
+		<Param name="UiName" index="4" type="string"/>
+		<Param name="Position" index="5" type="vector3" split1="~"/>
+		<Param name="Direction" index="6" type="vector3" split1="~"/>
+		<Param name="ResPath" index="7" type="string"/>
+		<Param name="NpcCameraPos" index="8" type="vector3" split1="~"/>
+		<Param name="NpcSystemOpenCameraPos" index="9" type="vector3" split1="~"/>
+		<Param name="Open" index="10" type="int"/>
+		<Param name="Desc" index="11" type="int"/>
+		<Param name="Icon" index="12" type="stringlist" split1="~"/>
+		<Param name="Sounds" index="13" type="intlist" split1="$"/>
+	</Struct>
+</Protocol>

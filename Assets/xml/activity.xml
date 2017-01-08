@@ -1,0 +1,6 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="ActivityContent">
+		<Param name="ItemReward " index="6" type="intlistlist" split1="$" split2="~" desc=""/>
+	</Struct>
+</Protocol>

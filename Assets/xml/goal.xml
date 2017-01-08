@@ -1,0 +1,20 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="EverydayTargetContent">
+    <Param name="LastId" index="1" type="int"/>
+    <Param name="TaskType" index="2" type="byte"/>
+    <Param name="TargetType" index="3" type="int"/>
+		<Param name="TargetFactor" index="4" type="int"/>
+		<Param name="TargetName" index="5" type="int"/>
+		<Param name="TargetText" index="6" type="int"/>
+		<Param name="IosTargetName" index="7" type="int"/>
+		<Param name="IosTargetText" index="8" type="int"/>
+		<Param name="FormulaIndex" index="10" type="int"/>
+		<Param name="RewardDiamond" index="11" type="int"/>
+		<Param name="RewardGold" index="12" type="int"/>
+		<Param name="RewardExp" index="13" type="int"/>
+		<Param name="ItemAndFactor" index="14" type="stringlistlist" split1="$" split2="~"/>
+		<Param name="GotoType" index="16" type="int"/>
+		<Param name="OpenId" index="17" type="int"/>
+	</Struct>
+</Protocol>

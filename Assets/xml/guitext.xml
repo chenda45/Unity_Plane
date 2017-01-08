@@ -1,0 +1,13 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="GUITextContent">
+		<Param name="SimpleChinese" index="1" type="string"/>
+		<Param name="TraditionalChinese" index="4" type="string"/>
+		<Param name="English" index="5" type="string"/>
+		<Param name="YinDu" index="6" type="string"/>
+		<Param name="YueNan" index="7" type="string"/>	
+		<Param name="TaiGuo" index="8" type="string"/>	
+		<Param name="HanGuo" index="9" type="string"/>	
+		<Param name="HongKongChinese" index="10" type="string"/>	
+	</Struct>
+</Protocol>

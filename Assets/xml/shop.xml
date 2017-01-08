@@ -1,0 +1,18 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="ShopContent ">
+		<Param name="ItemId " index="1" type="int"/>
+		<Param name="ChannelType " index="2" type="int"/>
+		<Param name="Num " index="4" type="int"/>
+		<Param name="Kind " index="5" type="int"/>
+		<Param name="AdditionalNum " index="6" type="int"/>
+		<Param name="ConsumeId " index="7" type="int"/>
+		<Param name="Price " index="9" type="int"/>
+		<Param name="SpriteName " index="10" type="string"/>
+		<Param name ="OverseasID" index = "11" type ="string" />
+    <Param name ="iosID" index = "12" type ="string" />
+    <Param name ="BuyNum" index = "13" type ="byte" />
+    <Param name ="giftSell" index = "16" type ="bytelist" split1="$"/>
+    <Param name="Order " index="17" type="byte"/>
+	</Struct>
+</Protocol>

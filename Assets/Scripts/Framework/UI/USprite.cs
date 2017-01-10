@@ -5,12 +5,9 @@ using System.Collections;
 
 public class USprite : UINode
 {
-    private UISprite mSprite;
-
-    public USprite(UIBase data) : base(data)
+    public USprite(GameObject go) : base(go)
     {
-        mSprite = gameObject.GetComponent<UISprite>();
-    }
 
+    }
 }  
 

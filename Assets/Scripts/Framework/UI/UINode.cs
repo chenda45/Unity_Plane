@@ -4,38 +4,38 @@ using System.Collections.Generic;
 
 public class UINode : UINodeBase
 {
-    private int mDepth;
-    private UIBase mData;
-    private List<UIBase> childList;
-
-    public UINode() 
-    {
-        
-    }
+    private int mBaseDepth;
+    private UIBase mNodeData; 
 
     public UINode(UIBase data) 
     {
-        mTransform = data.transform;
-        mObj = mTransform.gameObject;
-        mName = mObj.name;
-        mParent = mTransform.parent.gameObject;
+        mObj = data.transform.gameObject;
+        mName = data.name;
+        mNodeData = data;
         mBaseDepth = data.depth;
-        childList = data.childList;
-        mData = data;
+        mTransform = data.transform;
+        if(mTransform.parent != null)
+        {
+            mParent = mTransform.parent.gameObject;
+        }
+         
     }
 
-    public UIBase GetChildDataByName(string name) 
+    /// <summary>
+    /// 根据名字获取node数据
+    /// </summary>
+    /// <param name="name"></param>
+    /// <returns></returns>
+    protected UIBase GetChildDataByName(string name) 
     {
+        List<UIBase> childList = mNodeData.childList;
         for (int i = 0; i < childList.Count; i++)
         {
-            if(childList[i].name.EndsWith("/@" + name))
-            {
-                return childList[i];
-            }
+             if(childList[i].name.EndsWith("/@" + name))
+             {
+                
+             }
         }
-        Debug.LogError("Error: can't find child data by name = " + name);
         return null;
     }
-     
-
 } 

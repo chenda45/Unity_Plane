@@ -1,0 +1,10 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="SociatyAtrributeContent ">
+		<Param name="IndexID " index="1" type="int"/>
+		<Param name="Value1 " index="2" type="int"/>
+    <Param name="Value2 " index="3" type="int"/>
+    <Param name="Value3 " index="4" type="float"/>
+    <Param name="Awards " index="5" type="intlistlist" split1="$" split2="~"/>
+	</Struct>
+</Protocol>

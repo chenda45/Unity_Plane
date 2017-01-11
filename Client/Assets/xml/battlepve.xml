@@ -1,0 +1,26 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="BattlePVEContent">
+		<Param name="NormalID" index="1" type="int" split2=""/>
+		<Param name="UnlockList" index="2" type="intlist" split1="$"/>
+		<Param name="AnchorDot" index="3" type="vector3" split1="~"/>
+		<Param name="Chapter" index="4" type="int"/>
+		<Param name="DragCenter" index="5" type="vector3" split1="~"/>
+		<Param name="DragSize" index="6" type="vector3" split1="~"/>
+		<Param name="BattlePveName" index="7" type="int"/>
+		<Param name="PveMapID" index="10" type="int"/>
+		<Param name="PevLevelType" index="11" type="int"/>
+		<Param name="OpenCondition" index="12" type="intlist" split1="$" />
+		<Param name="OpenConditionFactor" index="13" type="intlist" split1="$"/>
+		<Param name="CameraHight" index="14" type="float"/>
+		<Param name="CameraDistance" index="15" type="float"/>
+		<Param name="CameraInitRotation" index="16" type="Vector3" split1="~"/>
+		<Param name="CameraStayRotation" index="17" type="Vector3" split1="~"/>
+		<Param name="LevelDecr" index="19" type="int"/>
+		<Param name="DropList" index="20" type="intlist" split1="$"/>
+		<Param name="recommendPartner" index="21" type="int"/>
+		<Param name="recommendBoy" index="22" type="intlist" split1="$"/>
+		<Param name="recommendGirl" index="23" type="intlist" split1="$"/>
+		<Param name="RepeatAward " index="24" type="intlistlist" split1="$" split2="~"/>
+	</Struct>
+</Protocol>

@@ -1,0 +1,8 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="PartnerBoxContent">
+		<Param name="Partnerid" index="3" type="int" split2=""/>
+		<Param name="ItemArgs" index="5" type="intlist" split1="~" split2=""/>
+		<Param name="Factor" index="9" type="intlist" split1="~" split2=""/>
+	</Struct>
+</Protocol>

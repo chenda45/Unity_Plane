@@ -1,0 +1,11 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="AudioContent">
+		<Param name="SoundType " index="1" type="byte"/>
+		<Param name="DelayTime " index="2" type="float"/>
+		<Param name="LoopCount " index="3" type="int"/>
+		<Param name="Interval " index="4" type="float"/>
+		<Param name="Random " index="5" type="int"/>
+		<Param name="Path " index="6" type="string"/>
+	</Struct>
+</Protocol>

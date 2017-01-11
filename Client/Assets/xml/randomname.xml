@@ -1,0 +1,9 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="NameContent">
+		<Param name="Name1" index="1" type="int" split2=""/>
+		<Param name="Name2" index="2" type="int" split2=""/>
+		<Param name="Name3" index="3" type="int" split1="" split2=""/>
+		<Param name="Name4" index="4" type="int" split1="" split2=""/>
+	</Struct>
+</Protocol>

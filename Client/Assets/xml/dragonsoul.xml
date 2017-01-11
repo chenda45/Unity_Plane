@@ -1,0 +1,12 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="DragonsoulContent">
+		<Param name="Name" index="1" type="int" split1="" split2="" desc=""/>
+		<Param name="Quality " index="3" type="int" split1="" split2="" desc=""/>
+    <Param name="UpgradeExp " index="4" type="intlistlist" split1="$" split2="~" desc=""/>
+		<Param name="TechId " index="5" type="int" split1="" split2="" desc=""/>
+    <Param name="LevelMultiple " index="6" type="intlistlist" split1="$" split2="~" desc=""/>
+		<Param name="Exp " index="7" type="int" split1="" split2="" desc=""/>
+		<Param name="ResPath " index="13" type="string" split1="" split2="" desc=""/>
+	</Struct>
+</Protocol>

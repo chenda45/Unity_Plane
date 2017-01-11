@@ -1,0 +1,8 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="PetSkillContent">
+		<Param name="PetSkillIndex" index="3" type="int" split2=""/>
+		<Param name="PetSkillReq" index="4" type="int" split2=""/>
+		<Param name="PetSkillPro" index="5" type="float" split1="" split2=""/>
+	</Struct>
+</Protocol>

@@ -1,0 +1,9 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="SceneStoryNpcContent ">
+		<Param name="Job1 " index="1" type="int"/>
+		<Param name="Job2" index="2" type="int"/>
+		<Param name="Job3" index="3" type="int"/>
+		<Param name="Job4" index="4" type="int"/>
+	</Struct>
+</Protocol>

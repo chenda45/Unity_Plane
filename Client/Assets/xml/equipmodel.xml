@@ -1,0 +1,13 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="EquipModelContent">
+		<Param name="Icon" index="1" type="string"/>
+		<Param name="ModelPath" index="2" type="stringlist" split1="$"/>
+		<Param name="TexturePath" index="3" type="stringlist" split1="$"/>
+		<Param name="Describe" index="4" type="int"/>
+		<Param name="Localposition" index="5" type="floatlistlist" split1="$" split2="~"/>
+		<Param name="Localrotation" index="6" type="floatlistlist" split1="$" split2="~"/>
+		<Param name="HeadCameraPosition" index="7" type="vector3" split1="~"/>
+		<Param name="HeadCameraRotation" index="8" type="vector3" split1="~"/>
+	</Struct>
+</Protocol>

@@ -1,0 +1,13 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="InviteContent">
+		<Param name="InviteType" index="1" type="int" split2=""/>
+		<Param name="InviteAgrs" index="2" type="intlist" split1="~" split2=""/>
+		<Param name="InviteText" index="3" type="int" split1="" split2=""/>
+		<Param name="NextInviteID" index="4" type="int" split1="" split2=""/>
+		<Param name="DiamondReward" index="5" type="int" split1="" split2=""/>
+		<Param name="GoldReward" index="6" type="int" split1="" split2=""/>
+		<Param name="ItemReward" index="7" type="intlistlist" split1="$" split2="~"/>
+		<Param name="OpenType" index="8" type="int" split1="" split2=""/>
+	</Struct>
+</Protocol>

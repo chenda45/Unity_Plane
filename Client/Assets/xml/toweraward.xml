@@ -1,0 +1,9 @@
+﻿<Protocol>
+  <Struct name="TowerAwardContent ">
+    <Param name="FinishAward" index="1" type="intlist" split1="~"/>
+    <Param name="FisrtWinAward" index="2" type="intlist" split1="~"/>
+    <Param name="MonsterBuff" index="3" type="int"/>
+    <Param name="TeamBuff" index="4" type="int"/>
+    <Param name="MonsterLevel" index="5" type="int"/>
+  </Struct>
+</Protocol>

@@ -1,0 +1,21 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="ReliceContent ">
+		<Param name="ReliceName " index="1" type="int"/>
+		<Param name="Hole1Tech " index="4" type="intlistlist" split1="$" split2="~"/>
+		<Param name="Hole1Item " index="5" type="intlistlist" split1="$" split2="~"/>
+		<Param name="Hole2Tech " index="7" type="intlistlist" split1="$" split2="~"/>
+		<Param name="Hole2Item " index="8" type="intlistlist" split1="$" split2="~"/>
+		<Param name="Hole3Tech " index="10" type="intlistlist" split1="$" split2="~"/>
+		<Param name="Hole3Item " index="11" type="intlistlist" split1="$" split2="~"/>
+		<Param name="AddTeach " index="12" type="int"/>
+		<Param name="NormalEffect " index="13" type="intlist" split1="$"/>
+		<Param name="ActiveEffect " index="14" type="intlist" split1="$"/>
+		<Param name="Modle " index="15" type="string"/>
+		<Param name="TexturePath " index="16" type="string"/>
+		<Param name="FromPosition " index="17" type="vector3" split1="~"/>
+		<Param name="ToPosition " index="18" type="vector3" split1="~"/>
+		<Param name="InitRotation " index="19" type="vector3" split1="~"/>
+		<Param name="PveID " index="20" type="int" split1=""/>
+	</Struct>
+</Protocol>

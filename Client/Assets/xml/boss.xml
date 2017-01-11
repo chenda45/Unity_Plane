@@ -1,0 +1,12 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="BossInfoContent">
+		<Param name="BossName" index="1" type="int" split2=""/>
+		<Param name="BossHp" index="2" type="int"/>
+		<Param name="BossLevel" index="3" type="string"/>
+		<Param name="BossClass" index="4" type="int"/>
+    <Param name="BossChapter" index="5" type="int"/>
+		<Param name="MonsterId" index="7" type="int"/>
+		<Param name="MapId" index="8" type="int"/>
+	</Struct>
+</Protocol>

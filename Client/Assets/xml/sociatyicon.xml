@@ -1,0 +1,6 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="SociatyIconContent ">
+		<Param name="Icon " index="1" type="string"/>
+	</Struct>
+</Protocol>

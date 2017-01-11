@@ -1,0 +1,9 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="CameraContent">
+		<Param name="CameraType" index="1" type="byte"/>
+		<Param name="ExtraArgToSingleList" index="2" type="stringlist" split1="~"/>
+		<Param name="DelayTime" index="3" type="float"/>
+		<Param name="LastTime" index="4" type="float"/>
+	</Struct>
+</Protocol>

@@ -1,0 +1,7 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="UIEffectContent">
+		<Param name="EffectPath " index="2" type="string"/>
+		<Param name="Time " index="3" type="float"/>
+	</Struct>
+</Protocol>

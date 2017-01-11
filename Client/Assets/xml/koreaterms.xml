@@ -1,0 +1,7 @@
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Protocol>
+	<Struct name="KoreaTermsContent">
+		<Param name="collectText" index="1" type="string"/>
+		<Param name="serviceText" index="2" type="string"/>
+	</Struct>
+</Protocol>

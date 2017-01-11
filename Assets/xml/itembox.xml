@@ -1,7 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="ItemBoxContent">
-		<Param name="Quality" index="2" type="byte" split2=""/>
-		<Param name="ItemArgs" index="3" type="intlist" split1="~" split2=""/>
-	</Struct>
-</Protocol>

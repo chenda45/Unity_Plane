@@ -1,6 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="TargetContent">
-		<Param name="DescID" index="2" type="int"/>
-	</Struct>
-</Protocol>

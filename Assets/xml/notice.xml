@@ -1,7 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="NoticeContent">
-		<Param name="Title" index="1" type="string" split2=""/>
-		<Param name="Notice" index="2" type="string" split2=""/>
-	</Struct>
-</Protocol>

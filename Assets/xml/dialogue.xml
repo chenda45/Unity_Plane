@@ -1,9 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="TalkContent ">
-		<Param name="NpcID " index="1" type="int"/>
-		<Param name="Remark " index="2" type="int"/>
-		<Param name="NameType " index="3" type="byte"/>
-		<Param name="TalkText " index="4" type="int"/>
-	</Struct>
-</Protocol>

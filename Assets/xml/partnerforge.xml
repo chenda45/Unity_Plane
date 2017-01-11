@@ -1,7 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="PartnerforgeContent">
-		<Param name="StoneExp" index="4" type="int" split2=""/> 
-		<Param name="SoulId" index="7" type="int" split2=""/> 
-	</Struct>
-</Protocol>

@@ -1,6 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="LeagueGoodContent">
-		<Param name="Type" index="1" type="int" split2=""/>
-	</Struct>
-</Protocol>

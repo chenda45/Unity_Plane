@@ -1,9 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="SceneInfoContent ">
-		<Param name="IconPath " index="1" type="string"/>
-		<Param name="Path " index="2" type="string"/>
-		<Param name="MusicTypeID " index="3" type="int"/>
-		<Param name="CameraID " index="4" type="int"/>
-	</Struct>
-</Protocol>

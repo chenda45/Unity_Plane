@@ -1,9 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="ChannelContent">
-		<Param name="IsFormalVersion" index="1" type="bool"/>
-		<Param name="SdkType" index="2" type="byte"/>
-		<Param name="ServerList" index="4" type="string"/>
-    <Param name="RechargeType" index="7" type="int"/>
-	</Struct>
-</Protocol>

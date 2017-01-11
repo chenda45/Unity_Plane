@@ -1,8 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="TipsContent">
-		<Param name="Picpath " index="1" type="string"/>
-		<Param name="Loadtips " index="2" type="int"/>
-		<Param name="LoadType " index="3" type="byte"/>
-	</Struct>
-</Protocol>

@@ -1,8 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="DropObjectContent">
-		<Param name="Radius" index="2" type="float"/>
-		<Param name="AdsorbMode" index="3" type="byte"/>
-		<Param name="DeadScript" index="4" type="int"/>
-	</Struct>
-</Protocol>

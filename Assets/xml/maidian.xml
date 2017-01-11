@@ -1,7 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="MaiDianContent">
-		<Param name="TriggerType" index="1" type="byte" split2=""/>
-		<Param name="TriggerArgs" index="2" type="string" split2=""/>
-	</Struct>
-</Protocol>

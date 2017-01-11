@@ -1,7 +1,0 @@
-<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
-<Protocol>
-	<Struct name="SociatyUpgradeContent ">
-		<Param name="NeedExp " index="1" type="int"/>
-		<Param name="AddPrivileges " index="2" type="intlistlist" split1="$" split2="~"/>
-	</Struct>
-</Protocol>

@@ -1,0 +1,9 @@
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\bin\Debug\NGUI310Lib.dll
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\bin\Debug\NGUI310Lib.pdb
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\bin\Debug\UnityEditor.dll
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\bin\Debug\UnityEngine.dll
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\obj\Debug\NGUI310Lib.dll
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\obj\Debug\NGUI310Lib.pdb
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\bin\Debug\UnityEditor.xml
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\bin\Debug\UnityEngine.xml
+E:\Unity3D\Plane\NGUI310Lib\NGUI310Lib\NGUI310Lib\obj\Debug\NGUI310Lib.csprojResolveAssemblyReference.cache
